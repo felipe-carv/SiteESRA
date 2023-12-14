@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como participar - ESRA - E-Sports Racing Alliance</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico">
+    <link rel="stylesheet" href="comoParticipar.css">
+</head>
+<body>
+    <header>
+        <span>
+            <img class="logo" src="imagens/Logos/ESRA_Branco_Sem_Fundo.png" alt="">
+            <a href="https://discord.gg/n4peTEMDKT" target="blank">
+                <img src="imagens/Logos/discord.png" alt="" class="social">
+            </a>
+            <a href="https://www.instagram.com/esra.racing/" target="blank" >
+                <img src="imagens/Logos/instagram.png" alt="" class="social">
+            </a>
+            <a href="https://twitter.com/esra_racing" target="_blank" >
+                <img src="imagens/Logos/twitter.png" alt="" class="social">
+            </a>
+            <a href="https://www.youtube.com/@ESRARacing/featured" target="_blank" >
+                <img src="imagens/Logos/youtube.png" alt="" class="social">
+            </a>
+                                    
+        </span>
+        
+        
+    </header>
+
+    <nav>
+        <a href="esra.html" class="btn">INÍCIO</a>
+        <a href="comoParticipar.html" class="btn">COMO PARTICIPAR</a>
+        <a href="eventosFinalizados.html" class="btn">EVENTOS FINALIZADOS</a>
+        <a href="eventosEmAndamento.html" class="btn">EVENTOS EM ANDAMENTO</a>
+        <a href="proximosEventos.html" class="btn">PRÓXIMOS EVENTOS</a>
+        <a href="aoVivo.html" class="btn">AO VIVO</a>
+        <a href="sobreNos.html" class="btn">SOBRE A ESRA</a>
+
+    </nav>
+
+    <main>
+        <article>
+            <h1>
+                COMO PARTICIPAR?
+            </h1>
+            <p>
+                Junte-se ao nosso servidor E-Sports Racing Alliance (ESRA) no <a href="https://discord.gg/nzQhV2TqFQ">Discord</a> para participar e ficar por dentro das próximas competições e novidades da liga!
+
+            </p>
+        </article>
+
+    </main>
+
+    <div class="aovivo">
+        <p>🔴 AO VIVO</p>
+        <br>
+        <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+                <div id="twitch" class="hide">
+                </div>
+                <script type="text/javascript">
+                var options = {
+                        channel: "ESRA_Br", // TODO: Change this to the streams username you want to embed
+                        width: 465,
+                        height: 320,
+                    };
+                    var player = new Twitch.Player("twitch", options);
+                    player.addEventListener(Twitch.Player.READY, initiate)
+                    function initiate() {
+                        player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+                        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+                        player.removeEventListener(Twitch.Player.READY, initiate);
+                    }
+                    function handleOnline() {
+                        document.getElementById("twitch").classList.remove('hide');
+                        player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
+                        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+                        player.setMuted(false);
+                    }
+                    function handleOffline() {
+                        document.getElementById("twitch").classList.add('hide');
+                        player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
+                        player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+                        player.setMuted(true);
+                    }
+        </script>
+        <br>
+        🏁 EQUIPES PARCEIRAS:
+        <br>
+        <br>
+        <a href="https://www.instagram.com/blackgoldracing/"><img src="imagens/Logos/bgr.png" alt=""></a>
+        <a href="https://www.twitch.tv/wr_racing"><img src="imagens/Logos/wrracing.png" alt=""></a>
+    </div>   
+        
+
+    <footer>
+
+    </footer>
+</body>
+</html>

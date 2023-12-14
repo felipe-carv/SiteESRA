@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'UniSansThic';
+    src:   url('fontes/Uni\ Sans\ Heavy\ Italic.otf') format('opentype');
+}
+
+*{
+    font-family: 'UniSansThic'; 
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #f21c32;
+    height: 150px;    
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 0px 0px 0px 386px;
+        
+}
+
+.logo {
+    display: inline-block;
+    padding: 29px 435px 29px 0px;
+         
+}
+
+.social{
+    display: inline-block; 
+    width: 40px;
+    height: 40px;
+    border-style: hidden;
+    padding: 55px 0px 55px 0px;    
+    
+}
+
+nav{
+    background-color: #161650;
+    padding: 25px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
+    padding-left: 310px;
+}
+
+nav>a{
+    font-family: 'UniSansThic';    
+    font-size: large;  
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    padding: 18px;
+    
+}
+
+nav > a:hover{
+    background-color: #ffffff;
+    color: #161650;
+    
+}
+
+
+main{
+    width: 1000px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 310px;
+    margin-right: 5px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #161650;
+    border-style: solid;
+    float: left;
+    background-color: #161650;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+            
+}
+
+.standings{
+    padding: 15px 0px 0px 60px;
+    width: 850px;
+    height: 478px;    
+}
+
+body>h1{
+    text-align: center;
+    font-family: 'UniSansThic';
+    color: #f21c32;
+    font-size: 400%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 310px;        
+}
+
+main a{
+    text-decoration: none;
+    color: #f21c32;
+    padding: 30px;
+    
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main h2{
+    padding: 15px 0px 30px 15px;
+}
+
+div.aovivo{
+    display: inline-block;
+    font-family: 'UniSansThic';
+    color: #161650;
+    font-size: larger;
+    height: 445px;
+    padding: 5px 5px 0px 50px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 5px;
+       
+}
