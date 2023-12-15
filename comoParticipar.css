@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'UniSans';
-    src:   url('fontes/Uni\ Sans\ Thin\ Italic.otf') format('opentype');
+    font-family: 'UniSansThic';
+    src:   url('fontes/Uni\ Sans\ Heavy\ Italic.otf') format('opentype');
 }
 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'UniSansThic';
 }
 
 header {
@@ -43,7 +44,6 @@ nav{
 }
 
 nav>a{
-    font-family: 'UniSans';
     font-weight: bolder;
     font-size: large;  
     color: white;
@@ -75,7 +75,6 @@ main{
 }
 
 article{
-    font-family: 'UniSans';
     color: white;
     font-weight: bolder;
 }
@@ -102,7 +101,6 @@ main a:hover{
 
 div.aovivo{
     display: inline-block;
-    font-family: 'UniSans';
     color: #161650;
     font-weight: bolder;
     font-size: larger;
@@ -111,4 +109,20 @@ div.aovivo{
     border-radius: 10px 10px 10px 10px;
     margin-top: 5px;
        
+}
+
+footer{
+    background-color: #f21c32;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer a{
+    color: #161650;
+    text-decoration: none;
 }

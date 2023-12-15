@@ -118,3 +118,19 @@ div.aovivo{
     margin-top: 5px;
        
 }
+
+footer{
+    background-color: #f21c32;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer a{
+    color: #161650;
+    text-decoration: none;
+}
