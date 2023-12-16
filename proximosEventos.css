@@ -78,8 +78,8 @@ main{
 
 .standings{
     padding: 15px 0px 0px 60px;
-    width: 850px;
-    height: 478px;    
+    max-width: 850px;
+    max-height: 478px;    
 }
 
 body>h1{
