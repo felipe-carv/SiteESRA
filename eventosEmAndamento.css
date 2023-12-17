@@ -38,26 +38,61 @@ header {
 
 nav{
     background-color: #161650;
-    padding: 25px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
-    padding-left: 310px;
+    padding: 17px 17px 17px 310px;         
 }
-
-nav>a{
-    font-family: 'UniSansThic';
+.btn{
     font-weight: bolder;
     font-size: large;  
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     transition-duration: 0.5s;
-    padding: 18px;
-    
+    padding: 15px;        
+}
+.btn:hover{
+    background-color: #f21c32;
+    color: #ffffff;        
 }
 
-nav > a:hover{
-    background-color: #ffffff;
-    color: #161650;
+
+.dropdown{
+    position: relative;
+    display: inline-block; 
+}
+.dropbtn{
     font-weight: bolder;
+    font-size: large;      
+    text-decoration: none;
+    transition-duration: 0.5s;    
+    background-color: #161650;
+    color: #ffffff;
+    padding: 15px;
+    border: none;    
+}
+.dropdown-content{    
+    display: none;
+    position: absolute;
+    top:36px;
+    background-color: #161650;
+    color: #ffffff;
+    min-width: 230px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: #ffffff;
+    background-color: #161650;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #f21c32;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: #f21c32;   
 }
 
 body>h1{
