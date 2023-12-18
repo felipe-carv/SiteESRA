@@ -15,7 +15,6 @@ header {
     background-color: #f21c32;
     height: 150px;    
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     padding: 0px 0px 0px 386px;
         
@@ -109,7 +108,7 @@ body>h1{
 
 main{
     width: 1000px;
-    height: 500px;
+    height: auto;
     margin-top: 5px;
     margin-left: 310px;
     margin-right: 5px;
@@ -121,7 +120,40 @@ main{
     color: #ffffff;
     padding: 10px 10px 10px 10px;
     margin-bottom: 30px;
-        
+}
+
+article{
+    font-family: 'UniSansThic';
+    color: white;
+    font-weight: bolder;
+}
+
+main h2{
+    padding: 15px 0px 30px 15px;
+}
+
+main a{
+    text-decoration: none;
+    color: #f21c32;
+    padding: 30px;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+.hidden{
+    display: none;
+}
+a.show:focus ~ #teste{
+    display: block;
+}
+.hidden:active{
+    display: block;
+}
+.standings{
+    padding: 15px 0px 0px 60px;
+    
 }
 
 div.aovivo{
@@ -146,6 +178,7 @@ footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
+    
 }
 
 footer a{

@@ -99,7 +99,8 @@ span{
 
 main{
     max-width: 1100px;
-    margin-left: 310px;
+    margin-left: 310px;    
+    margin-bottom: 30px;
 }
 
 div#twitch-embed{

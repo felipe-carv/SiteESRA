@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESRA - E-Sports Racing Alliance</title>
+    <link rel="stylesheet" href="eventosFinalizados.css">
 </head>
 <body>
+    <header>
+        <span>
+            <img class="logo" src="imagens/Logos/ESRA_Branco_Sem_Fundo.png" alt="">
+            <a href="https://discord.gg/n4peTEMDKT" target="blank">
+                <img src="imagens/Logos/discord.png" alt="" class="social">
+            </a>
+            <a href="https://www.instagram.com/esra.racing/" target="blank" >
+                <img src="imagens/Logos/instagram.png" alt="" class="social">
+            </a>
+            <a href="https://twitter.com/esra_racing" target="_blank" >
+                <img src="imagens/Logos/twitter.png" alt="" class="social">
+            </a>
+            <a href="https://www.youtube.com/@ESRARacing/featured" target="_blank" >
+                <img src="imagens/Logos/youtube.png" alt="" class="social">
+            </a>
+                                    
+        </span>
+        
+        
+    </header>
+
     <nav>
         <a href="index.html" class="btn">INÍCIO</a>
 
@@ -33,11 +55,70 @@
         <a href="sobreNos.html" class="btn">SOBRE A ESRA</a>        
     </nav>
 
+    <h1>
+        EVENTOS FINALIZADOS
+    </h1>
 
-    
-    <footer>
-        <p>Site em desenvolvimento por Felipe Carvalho. Saiba mais em <a href="https://github.com/felipe-carv" target="_blank">https://github.com/felipe-carv</a>.</p>
+    <main>        
+        <a href="#" class="show"><h2>⚪ FRIENDS CUP 1ª EDIÇÃO - GT3 (ROAD) - 2023/S04</h2></a>        
+        <div class="hidden" id="teste">
+            <a href="GT3/Detalhes_do_Campeonato_-_Friends_Cup.pdf" target="_blank">INFORMAÇÕES DO CAMPEONATO</a>
+            <br>
+            <br>
+            CLASSIFICAÇÃO POR EQUIPES:
+            <br>
+            <img src="https://media.discordapp.net/attachments/1165491997520437319/1185703265900429522/60500966-ecbd-455f-b82d-abd5ac7bff22.png?ex=65909337&is=657e1e37&hm=00ef5209810f9c2bd29136d8aa7a424ccf12e268425ff50fd48fb9ab063adfb6&=&format=webp&quality=lossless" alt="" class="standings">
+            <br>
+            <br>
+            CLASSIFICAÇÃO DOS PILOTOS:
+            <br>
+            <img src="https://media.discordapp.net/attachments/1165491997520437319/1185702449802137650/1976f993-5e7b-46b8-a2f9-bc99eff7f222.png?ex=65909275&is=657e1d75&hm=4ae63cec5d1663486b3cdefff0437fb8545370b5bffb57d1c1a0259b5d1ea537&=&format=webp&quality=lossless&width=564&height=671" alt="" class="standings">
+        </div>
+    </main>
 
-    </footer>
+    <div class="aovivo">
+        <p>🔴 AO VIVO</p>
+        <br>
+        <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+                <div id="twitch" class="hide">
+                </div>
+                <script type="text/javascript">
+                var options = {
+                        channel: "ESRA_Br", // TODO: Change this to the streams username you want to embed
+                        width: 465,
+                        height: 320,
+                    };
+                    var player = new Twitch.Player("twitch", options);
+                    player.addEventListener(Twitch.Player.READY, initiate)
+                    function initiate() {
+                        player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+                        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+                        player.removeEventListener(Twitch.Player.READY, initiate);
+                    }
+                    function handleOnline() {
+                        document.getElementById("twitch").classList.remove('hide');
+                        player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
+                        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+                        player.setMuted(false);
+                    }
+                    function handleOffline() {
+                        document.getElementById("twitch").classList.add('hide');
+                        player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
+                        player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+                        player.setMuted(true);
+                    }
+        </script>
+        <br>
+        🏁 EQUIPES PARCEIRAS:
+        <br>
+        <br>
+        <a href="https://www.instagram.com/blackgoldracing/" target="_blank"><img src="imagens/Logos/bgr.png" alt=""></a>
+        <a href="https://www.twitch.tv/wr_racing" target="_blank"><img src="imagens/Logos/wrracing.png" alt=""></a>
+    </div>
+   
 </body>
+<footer>
+    <p>Site em desenvolvimento por Felipe Carvalho. Saiba mais em <a href="https://github.com/felipe-carv" target="_blank">https://github.com/felipe-carv</a>.</p>
+
+</footer>
 </html>

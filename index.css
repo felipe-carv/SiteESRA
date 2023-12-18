@@ -105,7 +105,9 @@ main{
     border-radius: 10px 10px 10px 10px;
     border-color: #161650;
     border-style: solid;
-    float: left;   
+    float: left; 
+    margin-bottom: 30px;
+    background-color: #161650;
     
 }
 

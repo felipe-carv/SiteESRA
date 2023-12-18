@@ -15,7 +15,6 @@ header {
     background-color: #f21c32;
     height: 150px;    
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     padding: 0px 0px 0px 386px;
         
@@ -120,6 +119,7 @@ main{
     background-color: #161650;
     color: #ffffff;
     padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
         
 }
 
