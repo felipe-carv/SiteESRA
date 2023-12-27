@@ -98,7 +98,7 @@ nav{
 body>h1{
     text-align: center;
     font-family: 'UniSansThic';
-    color: #f21c32;
+    color: #161650;
     font-size: 400%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -107,34 +107,33 @@ body>h1{
 
 main{
     width: 1000px;
-    height: 600px;
-    margin-top: 5px;
-    margin-left: 310px;
-    margin-right: 5px;
+    height: fit-content;
+    margin: 5px 5px 30px 310px;
+    padding: 10px;
     border-radius: 10px 10px 10px 10px;
     border-color: #161650;
     border-style: solid;
     float: left;
     background-color: #161650;
-    margin-bottom: 30px;
-        
+            
 }
 
 article{
     color: white;
     font-weight: bolder;
+    
 }
 
 main h1{
     padding: 10px 0px 10px 10px;
-    
+    text-indent: 20px;    
 }
 main h2{
     padding: 15px 0px 30px 15px;
 }
 main p{
     padding: 10px 0px 10px 10px;
-    text-indent: 20px;
+    
 }
 
 main a{

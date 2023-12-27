@@ -97,6 +97,16 @@ nav{
     background-color: #f21c32;   
 }
 
+body>h1{
+    text-align: center;
+    font-family: 'UniSansThic';
+    color: #161650;
+    font-size: 400%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 310px;        
+}
+
 main{
     margin: 5px 5px 30px 310px;    
     border-radius: 10px 10px 10px 10px;
