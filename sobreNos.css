@@ -109,20 +109,24 @@ body>h1{
 
 main{
     width: 1000px;
-    height: 500px;
-    margin-top: 5px;
-    margin-left: 310px;
-    margin-right: 5px;
+    height: fit-content;
+    margin: 5px 5px 30px 310px;
+    padding: 20px;
     border-radius: 10px 10px 10px 10px;
     border-color: #161650;
     border-style: solid;
     float: left;
     background-color: #161650;
-    color: #ffffff;
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 30px;
-        
+    color: #ffffff;        
 }
+main>h1{
+    text-align: center;
+}
+main>h2{
+    text-indent: 20px;
+    text-decoration: underline;
+}
+main
 
 div.aovivo{
     display: inline-block;
