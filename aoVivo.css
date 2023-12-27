@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'UniSansThic';
-    src:   url('fontes/Uni\ Sans\ Heavy\ Italic.otf') format('opentype');
+    font-family: 'UniSansThin';
+    src:   url('fontes/Uni\ Sans\ Thin.otf') format('opentype');
 }
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'UniSansThic';
+    font-family: 'UniSansThin';
 }
 
 header {
