@@ -12,7 +12,7 @@
 }
 
 header {
-    background-color: #f21c32;
+    background-color: black;
     height: 150px;    
     font-size: 20px;
     text-decoration: none;
@@ -170,7 +170,7 @@ div.aovivo{
 }
 
 footer{
-    background-color: #f21c32;
+    background-color: black;
     color: #ffffff;
     padding: 5px;
     text-align: center;
@@ -178,10 +178,9 @@ footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    
 }
 
 footer a{
-    color: #161650;
+    color: #f21c32;
     text-decoration: none;
 }

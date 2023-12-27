@@ -12,13 +12,13 @@
 }
 
 header {
-    background-color: #f21c32;
+    background-color: black;
     height: 150px;    
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     padding: 0px 0px 0px 386px;
-        
+            
 }
 
 .logo {
@@ -36,11 +36,13 @@ header {
     
 }
 
+
 nav{
     background-color: #161650;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
     padding: 17px 17px 17px 310px;         
 }
+
 .btn{
     font-weight: bolder;
     font-size: large;  
@@ -49,11 +51,11 @@ nav{
     transition-duration: 0.5s;
     padding: 15px;        
 }
+
 .btn:hover{
     background-color: #f21c32;
     color: #ffffff;        
 }
-
 
 .dropdown{
     position: relative;
@@ -95,19 +97,10 @@ nav{
     background-color: #f21c32;   
 }
 
-
 main{
-    width: 1000px;
-    height: 600px;
-    margin-top: 5px;
-    margin-left: 310px;
-    margin-right: 5px;
+    margin: 5px 5px 30px 310px;    
     border-radius: 10px 10px 10px 10px;
-    border-color: #161650;
-    border-style: solid;
-    float: left; 
-    margin-bottom: 30px;
-    background-color: #161650;
+    float: left;
     
 }
 
@@ -124,7 +117,7 @@ div.aovivo{
 }
 
 footer{
-    background-color: #f21c32;
+    background-color: black;
     color: #ffffff;
     padding: 5px;
     text-align: center;
@@ -135,11 +128,6 @@ footer{
 }
 
 footer a{
-    color: #161650;
+    color: #f21c32;
     text-decoration: none;
 }
-
-
-
-
-
