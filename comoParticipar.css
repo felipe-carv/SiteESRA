@@ -4,6 +4,10 @@
     font-family: 'UniSansThin';
     src:   url('fontes/Uni\ Sans\ Thin.otf') format('opentype');
 }
+@font-face {
+    font-family: 'ObjectiveRegular';
+    src: url(fontes/Objective-Regular.otf) format('opentype');
+}
 
 *{
     margin: 0px;
@@ -120,8 +124,7 @@ main{
 
 article{
     color: white;
-    font-weight: bolder;
-    
+        
 }
 
 main h1{
@@ -133,12 +136,13 @@ main h2{
 }
 main p{
     padding: 10px 0px 10px 10px;
-    
+    font-family: 'ObjectiveRegular';    
 }
 
 main a{
     text-decoration: none;
     color: #f21c32;
+    font-family: 'ObjectiveRegular';
 }
 
 main a:hover{

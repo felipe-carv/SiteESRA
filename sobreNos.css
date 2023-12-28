@@ -5,6 +5,11 @@
     src:   url('fontes/Uni\ Sans\ Thin.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'ObjectiveRegular';
+    src: url(fontes/Objective-Regular.otf) format('opentype');
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -118,7 +123,8 @@ main{
     border-style: solid;
     float: left;
     background-color: #161650;
-    color: #ffffff;        
+    color: #ffffff;
+    font-family: 'ObjectiveRegular';   
 }
 main>h1{
     text-align: center;
@@ -127,7 +133,10 @@ main>h2{
     text-indent: 20px;
     text-decoration: underline;
 }
-main
+main>p{
+    font-family: 'ObjectiveRegular';
+}
+
 
 div.aovivo{
     display: inline-block;
