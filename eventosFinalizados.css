@@ -143,16 +143,10 @@ main a{
 main a:hover{
     text-decoration: underline;
 }
+summary{
+    cursor: pointer;
+}
 
-.hidden{
-    display: none;
-}
-a.show:focus ~ #teste{
-    display: block;
-}
-.hidden:active{
-    display: block;
-}
 .standings{
     padding: 15px 0px 0px 60px;
     
