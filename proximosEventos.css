@@ -37,23 +37,24 @@ header {
 }
 
 nav{
-    background-color: #161650;
+    background-color: black;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.384);
-    padding: 17px 17px 17px 310px;         
+    padding: 17px 17px 17px 310px;
 }
+
 .btn{
     font-weight: bolder;
     font-size: large;  
-    color: #ffffff;
+    color: #f21c32;
     text-decoration: none;
     transition-duration: 0.5s;
     padding: 15px;        
 }
+
 .btn:hover{
     background-color: #f21c32;
     color: #ffffff;        
 }
-
 
 .dropdown{
     position: relative;
@@ -64,8 +65,8 @@ nav{
     font-size: large;      
     text-decoration: none;
     transition-duration: 0.5s;    
-    background-color: #161650;
-    color: #ffffff;
+    background-color: black;
+    color: #f21c32;
     padding: 15px;
     border: none;    
 }
@@ -73,26 +74,28 @@ nav{
     display: none;
     position: absolute;
     top:36px;
-    background-color: #161650;
+    background-color: #f21c32;
     color: #ffffff;
     min-width: 230px;
     z-index: 1;
 }
 .dropdown-content a{
-    color: #ffffff;
-    background-color: #161650;
+    color: #f21c32;
+    background-color: black;
     padding: 15px;
     text-decoration: none;
     display: block;
 }
 .dropdown-content a:hover{
     background-color: #f21c32;
+    color: #ffffff;
 }
 .dropdown:hover .dropdown-content{
     display: block;
 }
 .dropdown:hover .dropbtn{
-    background-color: #f21c32;   
+    background-color: #f21c32;
+    color: #ffffff;
 }
 
 
