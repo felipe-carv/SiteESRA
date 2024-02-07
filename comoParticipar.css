@@ -24,7 +24,9 @@ header {
     padding: 0px 0px 0px 386px;
         
 }
-
+span>a{
+    text-decoration: none;    
+}
 .logo {
     display: inline-block;
     padding: 29px 435px 29px 0px;
